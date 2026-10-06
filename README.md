@@ -67,7 +67,6 @@ ruff check .
 
    ```bash
    git clone <repository-url>
-   cd CS270
    ```
 
 2. Create and activate a virtual environment:
