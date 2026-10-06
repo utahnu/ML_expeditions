@@ -1,0 +1,18 @@
+% ARFF file for a linearly separable dataset
+% 8 instances, 2 numeric inputs, 2 classes
+
+@relation linearly_separable
+
+@attribute input1 numeric
+@attribute input2 numeric
+@attribute class {0,1}
+
+@data
+1,2,0
+2,1,0
+2,3,0
+3,2,0
+6,7,1
+7,8,1
+8,8,1
+7,6,1

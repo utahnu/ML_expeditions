@@ -1,0 +1,18 @@
+% ARFF file for a non-linearly separable dataset
+% 8 instances, 2 numeric inputs, 2 classes
+
+@relation non_linearly_separable
+
+@attribute input1 numeric
+@attribute input2 numeric
+@attribute class {0,1}
+
+@data
+1,1,0
+2,2,0
+8,8,0
+9,9,0
+1,8,1
+2,9,1
+8,1,1
+9,2,1
